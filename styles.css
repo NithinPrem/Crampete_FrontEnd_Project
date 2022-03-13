@@ -2,42 +2,187 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	list-style: none;
+	font-family: "Lexend Deca", sans-serif;
 }
-.main-bg,
-.why {
-	/* height: 85vh; */
+html {
+	scroll-behavior: smooth;
+}
+
+.body {
+	position: relative;
+}
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.customBorder {
+	border: 0.05rem solid #00cc4e !important;
+}
+.main-bg {
+	height: 75vh;
 	background: url("images/main.jpg") no-repeat center/cover;
+}
+
+.why {
+	height: 85vh;
+	background: url("images/main.jpg") no-repeat center/cover;
+}
+.why2 {
+	height: 40vh;
+	background: url("images/boysonbeach.jpg") no-repeat
+		center/cover;
+}
+
+.destBoat {
+	height: 45vh;
+	background: url("images/destboat.jpg") no-repeat
+		center/cover;
+}
+
+.pvtMain {
+	height: 45vh;
+	background: url("images/jetskii.jpg") no-repeat
+		center/cover;
+}
+.tour-bg {
+	height: 45vh;
+	background: url("images/tourhorse.jpg") no-repeat
+		center/cover;
+}
+.tourList-bg {
+	height: 45vh;
+	background: url("images/tourbg.jpg") no-repeat
+		center/cover;
 }
 .navbar-light .navbar-toggler {
 	border: none !important;
 }
+
+.sky {
+	padding: 7rem !important;
+	background: url("images/sky1.jpg") no-repeat center/cover;
+	position: relative;
+}
+.psa {
+	position: absolute;
+	top: 12%;
+	left: 46%;
+}
+.skyOver {
+	z-index: 1;
+}
 .customGridParent {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 1rem;
-}
-.cgc1 {
-	grid-column-start: 2;
-	grid-row: 1/3;
-}
-
-.cgc2 {
-	grid-column-start: 2;
-	grid-row: 3/5;
-}
-
-.cgc3 {
-	grid-column: 1/3;
+	grid-template-rows: repeat(6, 1fr);
+	gap: 1rem !important;
+	grid-template-areas:
+		"child1 child2 child3"
+		"child1 child2 child3"
+		"child4 child2 child5"
+		"child4 child7 child5"
+		"child6 child7 child8"
+		"child6 child7 child8";
 }
 
-.cgc4 {
-	grid-column: -1/-3;
+.customGridChild1 {
+	grid-area: child1;
+	position: relative;
 }
+.customGridChild2 {
+	grid-area: child2;
+	position: relative;
+}
+.customGridChild3 {
+	grid-area: child3;
+	position: relative;
+}
+.customGridChild4 {
+	grid-area: child4;
+	position: relative;
+}
+.customGridChild5 {
+	grid-area: child5;
+	position: relative;
+}
+.customGridChild6 {
+	grid-area: child6;
+	position: relative;
+}
+.customGridChild7 {
+	grid-area: child7;
+	position: relative;
+}
+.customGridChild8 {
+	grid-area: child8;
+	position: relative;
+}
+
+.pvtCustomGridParent {
+	display: grid;
+	grid-template-columns: repeat(15, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 0.2rem !important;
+	grid-template-areas:
+		"pvtChild1 pvtChild1 pvtChild1  pvtChild1  pvtChild1 pvtChild1 pvtChild1 pvtChild2 pvtChild2 pvtChild2 pvtChild2 pvtChild3 pvtChild3 pvtChild3 pvtChild3"
+		"pvtChild4 pvtChild4 pvtChild4 pvtChild4 pvtChild5 pvtChild5 pvtChild5 pvtChild5 pvtChild6 pvtChild6 pvtChild6 pvtChild6 pvtChild6 pvtChild6 pvtChild6";
+}
+
+.pvtCustomGridChild1 {
+	grid-area: pvtChild1;
+}
+.pvtCustomGridChild2 {
+	grid-area: pvtChild2;
+}
+.pvtCustomGridChild3 {
+	grid-area: pvtChild3;
+}
+.pvtCustomGridChild4 {
+	grid-area: pvtChild4;
+}
+.pvtCustomGridChild5 {
+	grid-area: pvtChild5;
+}
+.pvtCustomGridChild6 {
+	grid-area: pvtChild6;
+}
+
 .opac {
 	background-color: rgba(0, 0, 0, 0.589);
 	padding: 5rem 5rem 3rem;
 	position: relative;
 }
+
+.opacc {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	transition: all 0.4s ease-in-out;
+	overflow: hidden;
+}
+.cardInfo {
+	margin: 15rem 0 0 2rem;
+}
+.cardInfoLg {
+	margin: 26.8rem 0 0 2rem;
+}
+
+.opacc:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+.cardInfo:hover,
+.cardInfoLg:hover {
+	transform: translateY(-50%);
+	transition: all 0.4s ease-in-out;
+}
+
 .btnpos {
 	position: absolute;
 	top: 95%;
@@ -49,7 +194,45 @@
 	width: 10px !important;
 }
 
-@media screen and (max-width: 768px) {
+.customPopup {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+textarea {
+	height: 200px !important;
+}
+
+.hidden {
+	display: none;
+}
+
+.book-bg {
+	background-color: #95cf00 !important;
+}
+.btn {
+	background-color: #03f03e !important;
+}
+.btn:hover {
+	background-color: #2afc5e !important;
+}
+.footer-bg {
+	background-color: #417703 !important;
+}
+
+@media screen and (max-width: 1024px) {
+	.psa {
+		all: unset;
+	}
+	video {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.customGridParent {
+		display: block !important;
+	}
 	.opac {
 		padding: 3rem;
 	}
