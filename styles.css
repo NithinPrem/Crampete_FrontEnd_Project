@@ -9,14 +9,15 @@ html {
 	scroll-behavior: smooth;
 }
 
-.body {
-	position: relative;
-}
-img {
+img,
+video {
 	max-width: 100%;
 	object-fit: cover;
 }
 
+.img-fluid {
+	height: 100% !important;
+}
 .customBorder {
 	border: 0.05rem solid #00cc4e !important;
 }
@@ -26,11 +27,10 @@ img {
 }
 
 .why {
-	height: 85vh;
 	background: url("images/main.jpg") no-repeat center/cover;
 }
 .why2 {
-	height: 40vh;
+	height: 45vh;
 	background: url("images/boysonbeach.jpg") no-repeat
 		center/cover;
 }
@@ -126,32 +126,43 @@ img {
 	grid-template-rows: repeat(2, 1fr);
 	gap: 0.2rem !important;
 	grid-template-areas:
-		"pvtChild1 pvtChild1 pvtChild1  pvtChild1  pvtChild1 pvtChild1 pvtChild1 pvtChild2 pvtChild2 pvtChild2 pvtChild2 pvtChild3 pvtChild3 pvtChild3 pvtChild3"
+		"pvtChild1 pvtChild1 pvtChild1 pvtChild1 pvtChild1 pvtChild1 pvtChild1 pvtChild2 pvtChild2 pvtChild2 pvtChild2 pvtChild3 pvtChild3 pvtChild3 pvtChild3"
 		"pvtChild4 pvtChild4 pvtChild4 pvtChild4 pvtChild5 pvtChild5 pvtChild5 pvtChild5 pvtChild6 pvtChild6 pvtChild6 pvtChild6 pvtChild6 pvtChild6 pvtChild6";
 }
 
 .pvtCustomGridChild1 {
 	grid-area: pvtChild1;
+	position: relative;
 }
 .pvtCustomGridChild2 {
 	grid-area: pvtChild2;
+	position: relative;
 }
 .pvtCustomGridChild3 {
 	grid-area: pvtChild3;
+	position: relative;
 }
 .pvtCustomGridChild4 {
 	grid-area: pvtChild4;
+	position: relative;
 }
 .pvtCustomGridChild5 {
 	grid-area: pvtChild5;
+	position: relative;
 }
 .pvtCustomGridChild6 {
 	grid-area: pvtChild6;
+	position: relative;
+}
+
+.customGridParent img,
+.pvtCustomGridParent img {
+	height: 100%;
 }
 
 .opac {
 	background-color: rgba(0, 0, 0, 0.589);
-	padding: 5rem 5rem 3rem;
+	padding: 3rem 3rem 3rem;
 	position: relative;
 }
 
@@ -165,18 +176,16 @@ img {
 	transition: all 0.4s ease-in-out;
 	overflow: hidden;
 }
-.cardInfo {
-	margin: 15rem 0 0 2rem;
-}
-.cardInfoLg {
-	margin: 26.8rem 0 0 2rem;
-}
-
 .opacc:hover {
 	cursor: pointer;
 	background-color: rgba(0, 0, 0, 0.65);
 }
-
+.cardInfo {
+	margin: 15rem 0 0 2rem;
+}
+.cardInfoLg {
+	margin: 27.05rem 0 0 2rem;
+}
 .cardInfo:hover,
 .cardInfoLg:hover {
 	transform: translateY(-50%);
@@ -196,17 +205,21 @@ img {
 
 .customPopup {
 	position: fixed;
-	top: 20%;
+	top: 10%;
 	left: 50%;
 	transform: translateX(-50%);
-	display: none;
+}
+.fa-square-xmark {
+	position: absolute !important;
+	top: 2%;
+	left: 98%;
+}
+
+.fa-square-xmark:hover {
+	cursor: pointer;
 }
 textarea {
 	height: 200px !important;
-}
-
-.hidden {
-	display: none;
 }
 
 .book-bg {
@@ -221,11 +234,57 @@ textarea {
 .footer-bg {
 	background-color: #417703 !important;
 }
+.hidden {
+	display: none;
+}
+.textcrd {
+	margin-bottom: 0 !important;
+	padding-bottom: 1rem !important;
+}
 
+.ftechild {
+	position: relative;
+}
+
+.ftechildOpac {
+	padding: 19.5rem 0 0 !important;
+	transition: all 0.6s ease-in-out !important;
+}
+
+.customBorderbottom {
+	border-bottom: 0.25rem solid #95cf00;
+}
+.customBorderbottom:hover {
+	cursor: pointer;
+	border-bottom: 0.25rem solid #b9ff09;
+	transition: all 0.3s ease-in-out;
+}
+.navbar-nav a:hover {
+	background-color: #03f03e;
+	color: #fff !important;
+}
+.review-circle {
+	height: 20px;
+	width: 20px;
+	border: 2px solid black;
+	border-radius: 50%;
+	margin: 0.5rem 0;
+}
+.review-circle-bg {
+	background-color: #03f03e !important;
+}
+.opinions {
+	margin: 0.35rem !important;
+}
 @media screen and (max-width: 1024px) {
 	.psa {
 		all: unset;
 	}
+	.skyOver {
+		width: 100%;
+		margin: 1rem 0;
+	}
+	iframe,
 	video {
 		width: 100% !important;
 		height: 100% !important;
@@ -234,9 +293,25 @@ textarea {
 		display: block !important;
 	}
 	.opac {
-		padding: 3rem;
+		padding: 0;
+		/* position: static !important; */
 	}
 	.btnpos {
 		position: static;
 	}
+	.sky {
+		padding: 1.5rem 0 !important;
+	}
+
+	.cardInfo {
+		margin: 4rem 0 0 1rem;
+	}
+	.cardInfoLg {
+		margin: 13.5rem 0 0 1rem;
+	}
 }
+/* @media screen and (max-width: 1445px) {
+	.psa {
+		all: unset;
+	}
+} */
