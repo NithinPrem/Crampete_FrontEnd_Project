@@ -1,73 +1,89 @@
-const tourlist = document.querySelectorAll(".tourlistCard");
-const changeClass = document.querySelectorAll(".txt-here");
-const changeClass2 =
-	document.querySelectorAll(".disappHere");
-const contentHide =
-	document.querySelectorAll(".contentHide");
-const contentHide2 =
-	document.querySelectorAll(".contentHide2");
-const tourInfo = document.querySelectorAll(".tourInfo");
+const tourlistcard1 = document.querySelector(
+	`[data-tourlist="1"]`
+);
 
-tourlist.forEach((item) => {
-	item.addEventListener("click", (e) => {
-		contentHide.forEach((elem) => {});
+const infographic = document.querySelector(".infographics");
+const info = document.querySelector(".tourinfo");
 
-		const val = item.getAttribute("data-tourlist");
-
-		const tourguide = document.querySelector(
-			`[data-tourlist="${val}"] .contentHide-${val},`
-		);
-		tourguide.classList.toggle("contentHide");
-		// tourguide.classList.toggle("contentHide2");
-		// tourguide.classList.toggle("tourInfo");
-		// tourguide.classList.toggle("textcrd");
-		// tourguide.classList.toggle("disappear");
-
-		// contentHide2.forEach((e) => {
-		// 	this.classList.toggle("contentHide2");
-		// });
-
-		// tourInfo.forEach((e) => {
-		// 	this.classList.toggle("tourInfo");
-		// });
-
-		// changeClass.forEach((e) => {
-		// 	this.classList.toggle("textcrd");
-		// });
-
-		// changeClass2.forEach((e) => {
-		// 	this.classList.toggle("disappear");
-		// });
-
-		// const target = e.target;
-		// if (target.matches(".tourlistCard")) {
-
-		// }
-		// e.stopPropagation();
-	});
+tourlistcard1.addEventListener("click", (e) => {
+	infographic.classList.toggle("hidden");
+	info.classList.toggle("hidden");
 });
 
-// document.addEventListener("click", (e) => {
-// 	const target = e.target;
+// **********************************************************************************************************
+const tourlistcard2 = document.querySelector(
+	`[data-tourlist="2"]`
+);
 
-// 	if (target.matches(".tourlistCard")) {
-// 		contentHide.forEach((e) => {
-// 			e.classList.toggle("contentHide");
-// 		});
-// 		contentHide2.forEach((e) => {
-// 			e.classList.toggle("contentHide2");
-// 		});
+const infographic2 = document.querySelector(
+	".infographics2"
+);
+const info2 = document.querySelector(".tourinfo2");
 
-// 		tourInfo.forEach((e) => {
-// 			e.classList.toggle("tourInfo");
-// 		});
+tourlistcard2.addEventListener("click", (e) => {
+	infographic2.classList.toggle("hidden");
+	info2.classList.toggle("hidden");
+});
 
-// 		changeClass.forEach((e) => {
-// 			e.classList.toggle("textcrd");
-// 		});
+// **********************************************************************************************************
 
-// 		changeClass2.forEach((e) => {
-// 			e.classList.toggle("disappear");
-// 		});
-// 	}
-// });
+const tourlistcard3 = document.querySelector(
+	`[data-tourlist="3"]`
+);
+
+const infographic3 = document.querySelector(
+	".infographics3"
+);
+const info3 = document.querySelector(".tourinfo3");
+
+tourlistcard3.addEventListener("click", (e) => {
+	infographic3.classList.toggle("hidden");
+	info3.classList.toggle("hidden");
+});
+
+// **********************************************************************************************************
+
+const tourlistcard4 = document.querySelector(
+	`[data-tourlist="4"]`
+);
+const infographic4 = document.querySelector(
+	".infographics4"
+);
+const info4 = document.querySelector(".tourinfo4");
+
+tourlistcard4.addEventListener("click", (e) => {
+	infographic4.classList.toggle("hidden");
+	info4.classList.toggle("hidden");
+});
+
+// **********************************************************************************************************
+
+const tourlistcard5 = document.querySelector(
+	`[data-tourlist="5"]`
+);
+
+const infographic5 = document.querySelector(
+	".infographics5"
+);
+const info5 = document.querySelector(".tourinfo5");
+
+tourlistcard5.addEventListener("click", (e) => {
+	infographic5.classList.toggle("hidden");
+	info5.classList.toggle("hidden");
+});
+
+// **********************************************************************************************************
+
+const tourlistcard6 = document.querySelector(
+	`[data-tourlist="6"]`
+);
+
+const infographic6 = document.querySelector(
+	".infographics6"
+);
+const info6 = document.querySelector(".tourinfo6");
+
+tourlistcard6.addEventListener("click", (e) => {
+	infographic6.classList.toggle("hidden");
+	info6.classList.toggle("hidden");
+});
