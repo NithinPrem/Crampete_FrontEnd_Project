@@ -95,7 +95,13 @@ video {
 	background-color: #95cf00 !important;
 }
 .group {
-	background-color: #417703 !important;
+	background-color: #5daf00 !important;
+}
+.text-color {
+	color: #64af01;
+}
+.text-color2 {
+	color: #89db1d;
 }
 .customGridParent {
 	display: grid;
