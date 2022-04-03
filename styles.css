@@ -21,40 +21,45 @@ video {
 .customBorder {
 	border: 0.05rem solid #00cc4e !important;
 }
+.customBorder:hover {
+	border: 0.05rem solid #00ff62 !important;
+	transition: all 0.1s ease-in-out;
+}
 .main-bg {
-	height: 75vh;
-	background: url("images/main22.jpg") no-repeat
+	background: url("images/main22.webp") no-repeat
 		center/cover;
 }
-
+.mainh1 {
+	font-size: 4rem;
+}
 .why {
-	background: url("images/homesubbg.jpg") no-repeat
+	background: url("images/homesubbg.webp") no-repeat
 		center/cover;
 	position: relative;
 }
 .why2 {
-	background: url("images/boysonbeach.jpg") no-repeat
+	background: url("images/boysonbeach.webp") no-repeat
 		center/cover;
 }
 .why3 {
-	background: url("images/pvtsubbg.jpg") no-repeat
+	background: url("images/pvtsubbg.webp") no-repeat
 		center/cover;
 }
 .destBoat {
-	background: url("images/destboat.jpg") no-repeat
+	background: url("images/destboat.webp") no-repeat
 		center/cover;
 }
 
 .pvtMain {
-	background: url("images/jetskii.jpg") no-repeat
+	background: url("images/middleblue.webp") no-repeat
 		center/cover;
 }
 .tour-bg {
-	background: url("images/tourhorse.jpg") no-repeat
+	background: url("images/tourhorse.webp") no-repeat
 		center/cover;
 }
 .tourList-bg {
-	background: url("images/tourbg.jpg") no-repeat
+	background: url("images/beauty.webp") no-repeat
 		center/cover;
 }
 .navbar-light .navbar-toggler {
@@ -63,30 +68,35 @@ video {
 
 .sky {
 	padding: 7rem !important;
-	background: url("images/sky1.jpg") no-repeat center/cover;
+	background: url("images/sky1.webp") no-repeat center/cover;
 	position: relative;
 }
 .sky2 {
 	padding: 7rem !important;
-	background: url("images/destsubbg.jpg") no-repeat
+	background: url("images/destsubbg.webp") no-repeat
 		center/cover;
 	position: relative;
 }
 .psa {
 	position: absolute;
-	top: 12%;
+	top: 13%;
 	left: 46%;
 }
 
 .psa2 {
 	position: absolute;
-	top: 15%;
+	top: 13.34%;
 	left: 46%;
 }
 .skyOver {
 	z-index: 1;
 }
-
+.tailor {
+	background-color: #95cf00 !important;
+}
+.group {
+	background-color: #417703 !important;
+}
 .customGridParent {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -169,6 +179,9 @@ video {
 	position: relative;
 }
 
+.gallery img,
+.destImg img,
+.pvtCategory img,
 .customGridParent img,
 .pvtCustomGridParent img {
 	height: 100% !important;
@@ -197,11 +210,10 @@ video {
 	overflow: hidden;
 }
 .opacc:hover {
-	cursor: pointer;
 	background-color: rgba(0, 0, 0, 0.65);
 }
 .cardInfo h4 {
-	margin: 15rem 0 0 2rem;
+	margin: 10rem 0 0 2rem;
 }
 .cardInfo p {
 	margin: 0 0 0 2rem;
@@ -214,7 +226,7 @@ video {
 }
 
 .cardInfoLg h4 {
-	margin: 27rem 0 0 2rem;
+	margin: 19.25rem 0 0 2rem;
 }
 .cardInfoLg p {
 	margin: 0 0 0 2rem;
@@ -273,8 +285,7 @@ video {
 	top: 2%;
 	left: 98%;
 }
-
-.tourlistCard,
+[data-tourlist],
 .fa-square-xmark:hover {
 	cursor: pointer;
 }
@@ -308,8 +319,8 @@ textarea {
 }
 
 .ftechildOpac {
-	padding: 19.85rem 0 0 !important;
-	transition: all 0.6s ease-in-out !important;
+	padding: 24.5rem 0 0 !important;
+	transition: all 0.4s ease-in-out !important;
 }
 
 .customBorderbottom {
@@ -320,14 +331,19 @@ textarea {
 	border-bottom: 0.25rem solid #b9ff09;
 	transition: all 0.3s ease-in-out;
 }
+
 .navbar-nav a:hover {
 	background-color: #03f03e;
 	color: #fff !important;
 }
 
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 0.15rem !important;
+}
+
 .review-circle {
-	height: 18px;
-	width: 18px;
+	height: 15px;
+	width: 15px;
 	border: 1px solid #0c882b !important;
 	border-radius: 50%;
 	margin: 0.5rem 0.05rem;
@@ -338,6 +354,62 @@ textarea {
 .opinions {
 	margin: 0.35rem !important;
 }
+
+[data-tourlist] .img1 {
+	height: 24.5rem !important;
+	width: 100% !important;
+}
+
+.custCard:hover {
+	background-color: #04bd32;
+	color: #fff !important;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+	.pvtcardInfo h4 {
+		margin: 7.5rem 0 0 2rem;
+	}
+	.pvtcardInfo p {
+		margin: 8.5rem 0 0 2rem;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+	[data-tourlist] .img1 {
+		height: 31.5rem !important;
+		width: 100% !important;
+	}
+	.tlreview,
+	.tlreview2 {
+		margin: 0 0 0 1.8rem !important;
+	}
+	.tlgraphics * {
+		margin: 0.1rem !important;
+	}
+
+	.opacc:hover h4 {
+		transform: translateY(-160%);
+		transition: all 0.4s ease-in-out;
+	}
+	.opacc:hover p {
+		transform: translateY(-180%);
+		transition: all 0.4s ease-in-out;
+	}
+	.opacclg:hover h4 {
+		transform: translateY(-190%);
+		transition: all 0.4s ease-in-out;
+	}
+	.opacclg:hover p {
+		transform: translateY(-180%);
+		transition: all 0.4s ease-in-out;
+	}
+	.transp {
+		font-size: 0.85rem;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	iframe,
 	video {
@@ -348,15 +420,19 @@ textarea {
 		width: 100%;
 		margin: 1rem 0;
 	}
-	.psa {
+	.mainh1 {
+		font-size: 2rem;
+	}
+	.psa,
+	.psa2 {
 		all: unset;
 	}
 
 	.pvtcardInfo h4 {
-		margin: 12.5rem 0 0 2rem;
+		margin: 5.5rem 0 0 2rem;
 	}
 	.pvtcardInfo p {
-		margin: 12.5rem 0 0 2rem;
+		margin: 5.5rem 0 0 2rem;
 	}
 	.customPopup {
 		position: fixed;
@@ -373,10 +449,42 @@ textarea {
 	.customPopup {
 		width: 90%;
 	}
+	.sky {
+		padding: 1.5rem 0 !important;
+	}
+
+	.sky2 {
+		padding: 1.5rem 0 !important;
+	}
+	.cardInfo h4 {
+		margin: 5.5rem 0 0 2rem;
+	}
+	.cardInfoLg h4 {
+		margin: 12.35rem 0 0 2rem;
+	}
+
+	.ftechildOpac {
+		padding: 29rem 0 0 !important;
+		transition: all 0.4s ease-in-out !important;
+	}
+	.Cardinfoopacc:hover h4 {
+		transform: translateY(-320%);
+		transition: all 0.4s ease-in-out;
+	}
+	.Cardinfoopacc:hover p {
+		transform: translateY(-250%);
+		transition: all 0.4s ease-in-out;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.tlreview {
+		margin: 0 0 0 2.5rem !important;
+	}
 }
 
 @media screen and (max-width: 768px) {
-	.psa {
+	.psa,
+	.psa2 {
 		all: unset;
 	}
 	.skyOver {
@@ -388,7 +496,9 @@ textarea {
 		width: 100% !important;
 		height: 100% !important;
 	}
-
+	.mainh1 {
+		font-size: 2rem;
+	}
 	.opac {
 		padding: 0;
 	}
@@ -399,8 +509,12 @@ textarea {
 		padding: 1.5rem 0 !important;
 	}
 
+	.sky2 {
+		padding: 1.5rem 0 !important;
+	}
+
 	.pvtcardInfo h4 {
-		margin: 11rem 0 0 2rem;
+		margin: 9rem 0 0 2rem;
 	}
 	.pvtcardInfo p {
 		margin: 5rem 0 0 2rem;
@@ -420,14 +534,55 @@ textarea {
 	.customPopup {
 		width: 90%;
 	}
+	.cardInfo h4 {
+		margin: 6.5rem 0 0 2rem;
+	}
+	.cardInfoLg h4 {
+		margin: 6.5rem 0 0 2rem;
+	}
+
+	.customGridParent {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 1rem !important;
+		grid-template-areas:
+			"child1 child2"
+			"child3 child4"
+			"child5 child6"
+			"child7 child8";
+	}
+	.pvtCustomGridParent {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 0.25rem !important;
+		grid-template-areas:
+			"pvtChild1 pvtChild2"
+			" pvtChild3 pvtChild4"
+			" pvtChild5 pvtChild6";
+	}
+	[data-tourlist] .img1 {
+		height: 18rem !important;
+		width: 100% !important;
+	}
+	.ftechildOpac {
+		padding: 28rem 0 0 !important;
+		transition: all 0.4s ease-in-out !important;
+	}
 }
+
 @media screen and (max-width: 425px) {
-	.psa {
+	.psa,
+	.psa2 {
 		all: unset;
 	}
 	.skyOver {
 		width: 100%;
 		margin: 1rem 0;
+	}
+	.mainh1 {
+		font-size: 2rem;
 	}
 	iframe,
 	video {
@@ -448,8 +603,12 @@ textarea {
 		padding: 1.5rem 0 !important;
 	}
 
+	.sky2 {
+		padding: 1.5rem 0 !important;
+	}
+
 	.pvtcardInfo h4 {
-		margin: 11rem 0 0 2rem;
+		margin: 10.35rem 0 0 2rem;
 	}
 	.pvtcardInfo p {
 		margin: 5rem 0 0 2rem;
@@ -470,29 +629,100 @@ textarea {
 		width: 90%;
 	}
 
-	.cardInfo h4 {
+	.cardInfo h4,
+	.cardInfoLg h4 {
+		margin: 8.5rem 0 0 2rem;
+	}
+
+	.customGridParent {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 30vh;
+		gap: 1rem !important;
+		grid-template-areas:
+			"child1"
+			"child2"
+			"child3"
+			"child4"
+			"child5"
+			"child6"
+			"child7"
+			"child8";
+	}
+	.ftechild img {
+		height: 350px;
+	}
+	.ftechildOpac {
+		padding: 7.5rem 0 0 !important;
+		transition: all 0.4s ease-in-out !important;
+	}
+	.opacc:hover p {
+		transform: translateY(-170%);
+		transition: all 0.4s ease-in-out;
+	}
+	.Cardinfoopacc:hover h4 {
+		transform: translateY(-370%);
+		transition: all 0.4s ease-in-out;
+	}
+	.Cardinfoopacc:hover p {
+		transform: translateY(-250%);
+		transition: all 0.4s ease-in-out;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.cardInfo h4,
+	.cardInfoLg h4 {
+		margin: 6.5rem 0 0 2rem;
+	}
+	.pvtcardInfo h4 {
+		margin: 8.5rem 0 0 2rem;
+	}
+	.pvtcardInfo p {
+		margin: 9.5rem 0 0 2rem;
+	}
+	.opacc:hover p {
+		transform: translateY(-110%);
+		transition: all 0.4s ease-in-out;
+	}
+
+	.ftechildOpac {
+		padding: 9.5rem 0 0 !important;
+		transition: all 0.4s ease-in-out !important;
+	}
+	.ftechildOpac {
+		padding: 9.35rem 0 0 !important;
+		transition: all 0.4s ease-in-out !important;
+	}
+	.Cardinfoopacc:hover p {
+		transform: translateY(-250%);
+		transition: all 0.4s ease-in-out;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cardInfo h4,
+	.cardInfoLg h4 {
 		margin: 4.5rem 0 0 2rem;
 	}
-	/* .cardInfo p {
-		margin: 0 0 0 2rem;
-	}
-	.cardInfo span {
-		margin: 1rem 0 0 2rem;
-	}
-	.cardInfo i {
-		margin: 0.5rem 0 0 0;
-	} */
 
-	.cardInfoLg h4 {
-		margin: 14.5rem 0 0 2rem;
+	.pvtcardInfo h4 {
+		margin: 6.5rem 0 0 2rem;
 	}
-	/* .cardInfoLg p {
-		margin: 0 0 0 2rem;
+	.pvtcardInfo p {
+		margin: 3.5rem 0 0 2rem;
 	}
-	.cardInfoLg span {
-		margin: 1rem 0 0 2rem;
+
+	.opacc:hover p {
+		transform: translateY(-110%);
+		transition: all 0.4s ease-in-out;
 	}
-	.cardInfoLg i {
-		margin: 0.5rem 0 0 0;
-	} */
+	.ftechildOpac {
+		padding: 11.35rem 0 0 !important;
+		transition: all 0.4s ease-in-out !important;
+	}
+	.Cardinfoopacc:hover p {
+		transform: translateY(-250%);
+		transition: all 0.4s ease-in-out;
+	}
 }

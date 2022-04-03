@@ -7,6 +7,29 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
+		<meta name="theme-color" content="#2AFC5E" />
+		<meta
+			name="description"
+			content="EcoTour Barahona. DISCOVER A HIDDEN PARADISE!"
+		/>
+
+		<!-- Windows Phone -->
+		<meta
+			name="msapplication-navbutton-color"
+			content="#2AFC5E"
+		/>
+
+		<!-- iOS & Safari -->
+		<meta
+			name="apple-mobile-web-app-capable"
+			content="yes"
+		/>
+		<meta
+			name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent"
+		/>
+		<link rel="apple-touch-icon" href="/ecotourlogo.webp" />
+
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -105,7 +128,7 @@
 						<p class="display-1">Our Travels</p>
 						<button
 							type="button"
-							class="btn px-4 text-white"
+							class="btn mt-3 px-4 text-white"
 						>
 							BOOK NOW
 						</button>
@@ -136,41 +159,35 @@
 
 		<section class="container-fluid bg-light py-5">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div>
+				<div class="row pvtCategory">
+					<div class="col-md-3">
+						<div class="card custCard p-1">
 							<div class="text-center">
 								<img
-									src="images/categories.png"
-									alt="Graphic image of categories"
-									width="300"
-									height="225"
+									src="images/categories.webp"
+									alt="Loupe and smartphone with compass on maps"
 								/>
 							</div>
 							<p class="text-center my-4">ALL CATEGORIES</p>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<div>
+					<div class="col-md-3 my-4 my-md-0">
+						<div class="card custCard p-1">
 							<div class="text-center">
 								<img
-									src="images/backpack2.jpg"
+									src="images/backpack2.webp"
 									alt="Photo of Man Standing On Top Of Mountain"
-									width="300"
-									height="225"
 								/>
 							</div>
 							<p class="text-center my-4">DAY-TRIPS</p>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<div>
+					<div class="col-md-3">
+						<div class="card custCard p-1">
 							<div class="text-center">
 								<img
-									src="images/multibag.jpg"
+									src="images/multibag.webp"
 									alt="Person in Yellow Coat Pulling a Suitcase"
-									width="300"
-									height="225"
 								/>
 							</div>
 							<p class="text-center my-4">
@@ -178,14 +195,12 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<div>
+					<div class="col-md-3 my-4 my-md-0">
+						<div class="card custCard p-1">
 							<div class="text-center">
 								<img
-									src="images/bus.jpg"
+									src="images/bus2.webp"
 									alt="Photo of Volkswagen Kombi on Dirt Road"
-									width="300"
-									height="225"
 								/>
 							</div>
 							<p class="text-center my-4">PRIVATE TOURS</p>
@@ -194,159 +209,29 @@
 				</div>
 
 				<div class="text-center text-lg-start">
-					<div class="row mt-5" data-tourlist="1">
-						<div class="col-lg-12">
-							<div class="card mb-3">
-								<div class="row g-0">
-									<div class="col-md-4">
+					<div
+						class="container card shadow mt-5"
+						data-tourlist="1"
+					>
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="row flex-column">
+									<div class="col-lg-12 p-0">
 										<img
-											src="images/main.jpg"
-											class="img-fluid rounded-start"
-											alt="Aerial View of island shore surrounded by the blue ocean"
+											src="images/main.webp"
+											class="img-fluid rounded-start img1"
+											alt="Aerial View of Island with Blue Seashore"
 										/>
 									</div>
-									<div class="col-md-8">
-										<div class="card-body pb-0">
-											<div
-												class="row justify-content-between ms-4"
-											>
-												<div class="col-lg-6 mt-3">
-													<h2>Garden of Eden</h2>
-													<span>DAYTRIP</span>
-													<p>Departing from BARAHONA</p>
-												</div>
-												<div class="col-lg-6 mt-3">
-													<div
-														class="row justify-content-end my-1"
-													>
-														<div class="col-lg-5">
-															<span
-																class="btn text-white px-4"
-																>$55</span
-															>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-5">
-															<span>Per Adult</span>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-8">
-															<p class="text-muted">
-																Transportation Included
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row ms-4">
-												<p>
-													<span
-														><i
-															class="fa-solid fa-clock me-2"
-														></i></span
-													>5-6 Hours
-												</p>
-											</div>
 
-											<div
-												class="ms-5 border-start border-2"
-											>
-												<p
-													class="card-text ms-4 mb-3 txt-here me-5"
-												>
-													Lorem ipsum dolor sit amet,
-													consectetur adipisicing elit.
-													Natus exercitationem beatae dolor
-													dolores vitae mollitia quae eius
-													ullam, atque officiis totam
-													ducimus minus quo repellendus?
-													Maiores numquam laboriosam dolore
-													qui repellendus saepe ut, voluptas
-													facere accusantium necessitatibus
-													quasi neque id veniam
-													exercitationem quas fugiat
-													assumenda, natus consequatur
-													quibusdam enim quos?
-												</p>
-											</div>
-											<div class="my-4 row infographics">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9 px-0">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 text-end">
-													<span class="mx-3"
-														><i
-															class="fa-solid fa-circle-info text-success me-2"
-														></i
-														>Info</span
-													>
-
-													<span class="mx-2"
-														><i
-															class="bi bi-folder-fill text-success me-2"
-														></i
-														>Photos</span
-													>
-
-													<span class="mx-3">
-														<i
-															class="fa-solid fa-map-location-dot text-success me-2"
-														></i
-														>Map</span
-													>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="row tourinfo hidden">
-									<div class="col-lg-4 me-2">
-										<div class="mt-3 ms-4 mt-4">
-											<span class="me-5"
+									<div class="col-lg-12 tourinfo hidden">
+										<div class="ms-md-4 mt-4">
+											<span class="me-md-5"
 												>ROUTE : Barahona - Paraiso</span
 											>
 											<span
 												><i
-													class="fa-solid fa-map-location-dot ms-5 text-success"
+													class="fa-solid fa-map-location-dot ms-2 ms-md-5 text-success"
 												></i>
 												MAP</span
 											>
@@ -388,9 +273,149 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-lg-7">
-										<div class="ms-5 border-start border-2">
-											<p class="card-text ms-4">
+								</div>
+							</div>
+
+							<div class="col-lg-8 mt-3">
+								<div class="row flex-column">
+									<div class="col-lg-12">
+										<div
+											class="row justify-content-between ms-md-4"
+										>
+											<div class="col-lg-6 mt-3">
+												<h2>Garden of Eden</h2>
+												<span>DAY TRIP</span>
+												<p>Departing from BARAHONA</p>
+											</div>
+											<div class="col-lg-6 mt-3">
+												<div
+													class="row justify-content-end my-1"
+												>
+													<div class="col-lg-5">
+														<span
+															class="btn text-white px-4"
+															>$55</span
+														>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-5">
+														<span>Per Adult</span>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-8">
+														<p class="text-muted transp">
+															Transportation Included
+														</p>
+													</div>
+												</div>
+											</div>
+											<p>
+												<span
+													><i
+														class="fa-solid fa-clock me-2"
+													></i></span
+												>5-6 Hours
+											</p>
+										</div>
+									</div>
+
+									<div class="col-lg-12">
+										<div
+											class="ms-3 ms-md-5 mt-1 border-start border-2 pe-lg-5"
+										>
+											<p class="card-text mx-3 me-md-5">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Natus
+												exercitationem beatae dolor dolores
+												vitae mollitia quae eius ullam,
+												atque officiis totam ducimus minus
+												quo repellendus? Maiores numquam
+												laboriosam dolore qui repellendus
+												saepe ut, voluptas facere
+												accusantium necessitatibus quasi
+												neque id veniam exercitationem quas
+												fugiat assumenda, natus consequatur
+												quibusdam enim quos?
+											</p>
+										</div>
+										<div class="my-4 row infographics">
+											<div class="col-lg-6">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="30"
+															class="ms-md-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div
+												class="col-lg-5 text-lg-end ms-md-3 tlgraphics"
+											>
+												<span class="mx-md-3"
+													><i
+														class="fa-solid fa-circle-info text-success me-2"
+													></i
+													>Info</span
+												>
+
+												<span class="mx-2"
+													><i
+														class="bi bi-folder-fill text-success me-md-2"
+													></i
+													>Photos</span
+												>
+
+												<span class="mx-md-3">
+													<i
+														class="fa-solid fa-map-location-dot text-success me-2"
+													></i
+													>Map</span
+												>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="col-lg-12 tourcontent1 hidden"
+									>
+										<div
+											class="ms-3 ms-md-5 border-start border-2 pt-3 pe-lg-5 mb-md-5"
+										>
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -401,7 +426,7 @@
 												vitae.
 											</p>
 
-											<p class="card-text ms-4">
+											<p class="card-text mx-3 pe-lg-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -411,55 +436,60 @@
 												temporibus dolorum doloribus iure
 												vitae.
 											</p>
-											<p class="card-text ms-4">
+											<p
+												class="card-text mx-3 pe-lg-5 mb-md-5"
+											>
 												Lorem ipsum dolor sit amet
 												consectetur, adipisicing elit. Eum
 												dignissimos itaque cum! Ad, aut
 												eveniet!
 											</p>
 										</div>
-
-										<div class="my-5 pt-5">
-											<div class="row justify-content-end">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
+										<div class="row mt-md-5">
+											<div class="col-lg-6 mt-5">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="35"
+															class="ms-lg-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview2"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
 													</div>
 												</div>
-												<div class="col-lg-6 text-end">
+											</div>
+											<div
+												class="col-lg-5 text-center my-5"
+											>
+												<div class="text-lg-end">
 													<button
 														type="button"
-														class="btn px-5 text-white ms-5"
+														class="btn px-5 text-white"
 													>
 														BOOK NOW
 													</button>
@@ -472,159 +502,29 @@
 						</div>
 					</div>
 
-					<div class="row mt-5" data-tourlist="2">
-						<div class="col-lg-12">
-							<div class="card mb-3">
-								<div class="row g-0">
-									<div class="col-md-4">
+					<div
+						class="container card shadow mt-5"
+						data-tourlist="2"
+					>
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="row flex-column">
+									<div class="col-lg-12 p-0">
 										<img
-											src="images/horsefield.jpg"
-											class="img-fluid rounded-start"
+											src="images/horsefield.webp"
+											class="img-fluid rounded-start img1"
 											alt="People Riding Horse on Green Grass Field"
 										/>
 									</div>
-									<div class="col-md-8">
-										<div class="card-body pb-0">
-											<div
-												class="row justify-content-between ms-4"
-											>
-												<div class="col-lg-6 mt-3">
-													<h2>Horseback Riding</h2>
-													<span>HALF-DAY</span>
-													<p>Departing from BARAHONA</p>
-												</div>
-												<div class="col-lg-6 mt-3">
-													<div
-														class="row justify-content-end my-1"
-													>
-														<div class="col-lg-5">
-															<span
-																class="btn text-white px-4"
-																>$55</span
-															>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-5">
-															<span>Per Adult</span>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-8">
-															<p class="text-muted">
-																Transportation Included
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row ms-4">
-												<p>
-													<span
-														><i
-															class="fa-solid fa-clock me-2"
-														></i></span
-													>5-6 Hours
-												</p>
-											</div>
 
-											<div
-												class="ms-5 border-start border-2"
-											>
-												<p
-													class="card-text ms-4 mb-3 txt-here me-5"
-												>
-													Lorem ipsum dolor sit amet,
-													consectetur adipisicing elit.
-													Natus exercitationem beatae dolor
-													dolores vitae mollitia quae eius
-													ullam, atque officiis totam
-													ducimus minus quo repellendus?
-													Maiores numquam laboriosam dolore
-													qui repellendus saepe ut, voluptas
-													facere accusantium necessitatibus
-													quasi neque id veniam
-													exercitationem quas fugiat
-													assumenda, natus consequatur
-													quibusdam enim quos?
-												</p>
-											</div>
-											<div class="my-4 row infographics2">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9 px-0">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 text-end">
-													<span class="mx-3"
-														><i
-															class="fa-solid fa-circle-info text-success me-2"
-														></i
-														>Info</span
-													>
-
-													<span class="mx-2"
-														><i
-															class="bi bi-folder-fill text-success me-2"
-														></i
-														>Photos</span
-													>
-
-													<span class="mx-3">
-														<i
-															class="fa-solid fa-map-location-dot text-success me-2"
-														></i
-														>Map</span
-													>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="row tourinfo2 hidden">
-									<div class="col-lg-4 me-2">
-										<div class="mt-3 ms-4 mt-4">
-											<span class="me-5"
+									<div class="col-lg-12 tourinfo2 hidden">
+										<div class="ms-md-4 mt-4">
+											<span class="me-md-5"
 												>ROUTE : Barahona - Paraiso</span
 											>
 											<span
 												><i
-													class="fa-solid fa-map-location-dot ms-5 text-success"
+													class="fa-solid fa-map-location-dot ms-2 ms-md-5 text-success"
 												></i>
 												MAP</span
 											>
@@ -666,9 +566,150 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-lg-7">
-										<div class="ms-5 border-start border-2">
-											<p class="card-text ms-4">
+								</div>
+							</div>
+
+							<div class="col-lg-8 mt-3">
+								<div class="row flex-column">
+									<div class="col-lg-12">
+										<div
+											class="row justify-content-between ms-md-4"
+										>
+											<div class="col-lg-6 mt-3">
+												<h2>Horseback Riding</h2>
+												<span>HALF DAY</span>
+												<p>Departing from BARAHONA</p>
+											</div>
+											<div class="col-lg-6 mt-3">
+												<div
+													class="row justify-content-end my-1"
+												>
+													<div class="col-lg-5">
+														<span
+															class="btn text-white px-4"
+															>$55</span
+														>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-5">
+														<span>Per Adult</span>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-8">
+														<p class="text-muted transp">
+															Transportation Included
+														</p>
+													</div>
+												</div>
+											</div>
+											<p>
+												<span
+													><i
+														class="fa-solid fa-clock me-2"
+													></i></span
+												>5-6 Hours
+											</p>
+										</div>
+									</div>
+
+									<div class="col-lg-12">
+										<div
+											class="ms-3 ms-md-5 mt-1 border-start border-2 pe-lg-5"
+										>
+											<p class="card-text mx-3 me-md-5">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Natus
+												exercitationem beatae dolor dolores
+												vitae mollitia quae eius ullam,
+												atque officiis totam ducimus minus
+												quo repellendus? Maiores numquam
+												laboriosam dolore qui repellendus
+												saepe ut, voluptas facere
+												accusantium necessitatibus quasi
+												neque id veniam exercitationem quas
+												fugiat assumenda, natus consequatur
+												quibusdam enim quos?
+											</p>
+										</div>
+
+										<div class="my-4 row infographics2">
+											<div class="col-lg-6">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="30"
+															class="ms-md-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div
+												class="col-lg-5 text-lg-end ms-md-3 tlgraphics"
+											>
+												<span class="mx-md-3"
+													><i
+														class="fa-solid fa-circle-info text-success me-2"
+													></i
+													>Info</span
+												>
+
+												<span class="mx-2"
+													><i
+														class="bi bi-folder-fill text-success me-md-2"
+													></i
+													>Photos</span
+												>
+
+												<span class="mx-md-3">
+													<i
+														class="fa-solid fa-map-location-dot text-success me-2"
+													></i
+													>Map</span
+												>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="col-lg-12 tourcontent2 hidden"
+									>
+										<div
+											class="ms-3 ms-md-5 border-start border-2 pt-3 pe-lg-5 mb-md-5"
+										>
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -679,7 +720,7 @@
 												vitae.
 											</p>
 
-											<p class="card-text ms-4">
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -689,54 +730,60 @@
 												temporibus dolorum doloribus iure
 												vitae.
 											</p>
-											<p class="card-text ms-4">
+											<p
+												class="card-text mx-3 pe-md-5 mb-md-5"
+											>
 												Lorem ipsum dolor sit amet
 												consectetur, adipisicing elit. Eum
 												dignissimos itaque cum! Ad, aut
 												eveniet!
 											</p>
 										</div>
-										<div class="my-5 pt-5">
-											<div class="row justify-content-end">
-												<div class="col-md-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
+										<div class="row mt-md-5">
+											<div class="col-lg-6 mt-5">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="35"
+															class="ms-lg-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview2"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
 													</div>
 												</div>
-												<div class="col-lg-6 text-end">
+											</div>
+											<div
+												class="col-lg-5 text-center my-5"
+											>
+												<div class="text-lg-end">
 													<button
 														type="button"
-														class="btn px-5 text-white ms-5"
+														class="btn px-5 text-white"
 													>
 														BOOK NOW
 													</button>
@@ -748,159 +795,29 @@
 							</div>
 						</div>
 					</div>
-					<div class="row mt-5" data-tourlist="3">
-						<div class="col-lg-12">
-							<div class="card mb-3">
-								<div class="row g-0">
-									<div class="col-md-4">
+					<div
+						class="container card shadow mt-5"
+						data-tourlist="3"
+					>
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="row flex-column">
+									<div class="col-lg-12 p-0">
 										<img
-											src="images/jewel.jpg"
-											class="img-fluid rounded-start"
+											src="images/jewel.webp"
+											class="img-fluid rounded-start img1"
 											alt="Closeup Photo of Purple Gemstones"
 										/>
 									</div>
-									<div class="col-md-8">
-										<div class="card-body pb-0">
-											<div
-												class="row justify-content-between ms-4"
-											>
-												<div class="col-lg-6 mt-3">
-													<h2>Blue Jewel Mine</h2>
-													<span>DAYTRIP</span>
-													<p>Departing from BARAHONA</p>
-												</div>
-												<div class="col-lg-6 mt-3">
-													<div
-														class="row justify-content-end my-1"
-													>
-														<div class="col-lg-5">
-															<span
-																class="btn text-white px-4"
-																>$55</span
-															>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-5">
-															<span>Per Adult</span>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-8">
-															<p class="text-muted">
-																Transportation Included
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row ms-4">
-												<p>
-													<span
-														><i
-															class="fa-solid fa-clock me-2"
-														></i></span
-													>5-6 Hours
-												</p>
-											</div>
 
-											<div
-												class="ms-5 border-start border-2"
-											>
-												<p
-													class="card-text ms-4 mb-3 txt-here me-5"
-												>
-													Lorem ipsum dolor sit amet,
-													consectetur adipisicing elit.
-													Natus exercitationem beatae dolor
-													dolores vitae mollitia quae eius
-													ullam, atque officiis totam
-													ducimus minus quo repellendus?
-													Maiores numquam laboriosam dolore
-													qui repellendus saepe ut, voluptas
-													facere accusantium necessitatibus
-													quasi neque id veniam
-													exercitationem quas fugiat
-													assumenda, natus consequatur
-													quibusdam enim quos?
-												</p>
-											</div>
-											<div class="my-4 row infographics3">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9 px-0">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 text-end">
-													<span class="mx-3"
-														><i
-															class="fa-solid fa-circle-info text-success me-2"
-														></i
-														>Info</span
-													>
-
-													<span class="mx-2"
-														><i
-															class="bi bi-folder-fill text-success me-2"
-														></i
-														>Photos</span
-													>
-
-													<span class="mx-3">
-														<i
-															class="fa-solid fa-map-location-dot text-success me-2"
-														></i
-														>Map</span
-													>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="row tourinfo3 hidden">
-									<div class="col-lg-4 me-2">
-										<div class="mt-3 ms-4 mt-4">
-											<span class="me-5"
+									<div class="col-lg-12 tourinfo3 hidden">
+										<div class="ms-md-4 mt-4">
+											<span class="me-md-5"
 												>ROUTE : Barahona - Paraiso</span
 											>
 											<span
 												><i
-													class="fa-solid fa-map-location-dot ms-5 text-success"
+													class="fa-solid fa-map-location-dot ms-2 ms-md-5 text-success"
 												></i>
 												MAP</span
 											>
@@ -942,9 +859,149 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-lg-7">
-										<div class="ms-5 border-start border-2">
-											<p class="card-text ms-4">
+								</div>
+							</div>
+
+							<div class="col-lg-8 mt-3">
+								<div class="row flex-column">
+									<div class="col-lg-12">
+										<div
+											class="row justify-content-between ms-md-4"
+										>
+											<div class="col-lg-6 mt-3">
+												<h2>Blue Jewel Mine</h2>
+												<span>DAY TRIP</span>
+												<p>Departing from BARAHONA</p>
+											</div>
+											<div class="col-lg-6 mt-3">
+												<div
+													class="row justify-content-end my-1"
+												>
+													<div class="col-lg-5">
+														<span
+															class="btn text-white px-4"
+															>$55</span
+														>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-5">
+														<span>Per Adult</span>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-8">
+														<p class="text-muted transp">
+															Transportation Included
+														</p>
+													</div>
+												</div>
+											</div>
+											<p>
+												<span
+													><i
+														class="fa-solid fa-clock me-2"
+													></i></span
+												>5-6 Hours
+											</p>
+										</div>
+									</div>
+
+									<div class="col-lg-12">
+										<div
+											class="ms-3 ms-md-5 mt-1 border-start border-2 pe-lg-5"
+										>
+											<p class="card-text mx-3 me-md-5">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Natus
+												exercitationem beatae dolor dolores
+												vitae mollitia quae eius ullam,
+												atque officiis totam ducimus minus
+												quo repellendus? Maiores numquam
+												laboriosam dolore qui repellendus
+												saepe ut, voluptas facere
+												accusantium necessitatibus quasi
+												neque id veniam exercitationem quas
+												fugiat assumenda, natus consequatur
+												quibusdam enim quos?
+											</p>
+										</div>
+										<div class="my-4 row infographics3">
+											<div class="col-lg-6">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="30"
+															class="ms-md-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div
+												class="col-lg-5 text-lg-end ms-md-3 tlgraphics"
+											>
+												<span class="mx-md-3"
+													><i
+														class="fa-solid fa-circle-info text-success me-2"
+													></i
+													>Info</span
+												>
+
+												<span class="mx-2"
+													><i
+														class="bi bi-folder-fill text-success me-md-2"
+													></i
+													>Photos</span
+												>
+
+												<span class="mx-md-3">
+													<i
+														class="fa-solid fa-map-location-dot text-success me-2"
+													></i
+													>Map</span
+												>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="col-lg-12 tourcontent3 hidden"
+									>
+										<div
+											class="ms-3 ms-md-5 border-start border-2 pt-3 pe-lg-5 mb-md-5"
+										>
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -955,7 +1012,7 @@
 												vitae.
 											</p>
 
-											<p class="card-text ms-4">
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -965,55 +1022,60 @@
 												temporibus dolorum doloribus iure
 												vitae.
 											</p>
-											<p class="card-text ms-4">
+											<p
+												class="card-text mx-3 pe-md-5 mb-md-5"
+											>
 												Lorem ipsum dolor sit amet
 												consectetur, adipisicing elit. Eum
 												dignissimos itaque cum! Ad, aut
 												eveniet!
 											</p>
 										</div>
-										<div class="my-5 pt-5">
-											<div class="row justify-content-end">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
+										<div class="row mt-md-5">
+											<div class="col-lg-6 mt-5">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="35"
+															class="ms-lg-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview2"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
 													</div>
 												</div>
-
-												<div class="col-lg-6 text-end">
+											</div>
+											<div
+												class="col-lg-5 text-center my-5"
+											>
+												<div class="text-lg-end">
 													<button
 														type="button"
-														class="btn px-5 text-white ms-5"
+														class="btn px-5 text-white"
 													>
 														BOOK NOW
 													</button>
@@ -1025,159 +1087,29 @@
 							</div>
 						</div>
 					</div>
-					<div class="row mt-5" data-tourlist="4">
-						<div class="col-lg-12">
-							<div class="card mb-3">
-								<div class="row g-0">
-									<div class="col-md-4">
+					<div
+						class="container card shadow mt-5"
+						data-tourlist="4"
+					>
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="row flex-column">
+									<div class="col-lg-12 p-0">
 										<img
-											src="images/para.jpg"
-											class="img-fluid rounded-start"
+											src="images/para.webp"
+											class="img-fluid rounded-start img1"
 											alt="Beach Resort by the ocean front"
 										/>
 									</div>
-									<div class="col-md-8">
-										<div class="card-body pb-0">
-											<div
-												class="row justify-content-between ms-4"
-											>
-												<div class="col-lg-6 mt-3">
-													<h2>Untouched Paradise</h2>
-													<span>DAYTRIP</span>
-													<p>Departing from BARAHONA</p>
-												</div>
-												<div class="col-lg-6 mt-3">
-													<div
-														class="row justify-content-end my-1"
-													>
-														<div class="col-lg-5">
-															<span
-																class="btn text-white px-4"
-																>$55</span
-															>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-5">
-															<span>Per Adult</span>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-8">
-															<p class="text-muted">
-																Transportation Included
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row ms-4">
-												<p>
-													<span
-														><i
-															class="fa-solid fa-clock me-2"
-														></i></span
-													>5-6 Hours
-												</p>
-											</div>
 
-											<div
-												class="ms-5 border-start border-2"
-											>
-												<p
-													class="card-text ms-4 mb-3 txt-here me-5"
-												>
-													Lorem ipsum dolor sit amet,
-													consectetur adipisicing elit.
-													Natus exercitationem beatae dolor
-													dolores vitae mollitia quae eius
-													ullam, atque officiis totam
-													ducimus minus quo repellendus?
-													Maiores numquam laboriosam dolore
-													qui repellendus saepe ut, voluptas
-													facere accusantium necessitatibus
-													quasi neque id veniam
-													exercitationem quas fugiat
-													assumenda, natus consequatur
-													quibusdam enim quos?
-												</p>
-											</div>
-											<div class="my-4 row infographics4">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9 px-0">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 text-end">
-													<span class="mx-3"
-														><i
-															class="fa-solid fa-circle-info text-success me-2"
-														></i
-														>Info</span
-													>
-
-													<span class="mx-2"
-														><i
-															class="bi bi-folder-fill text-success me-2"
-														></i
-														>Photos</span
-													>
-
-													<span class="mx-3">
-														<i
-															class="fa-solid fa-map-location-dot text-success me-2"
-														></i
-														>Map</span
-													>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="row tourinfo4 hidden">
-									<div class="col-lg-4 me-2">
-										<div class="mt-3 ms-4 mt-4">
-											<span class="me-5"
+									<div class="col-lg-12 tourinfo4 hidden">
+										<div class="ms-md-4 mt-4">
+											<span class="me-md-5"
 												>ROUTE : Barahona - Paraiso</span
 											>
 											<span
 												><i
-													class="fa-solid fa-map-location-dot ms-5 text-success"
+													class="fa-solid fa-map-location-dot ms-2 ms-md-5 text-success"
 												></i>
 												MAP</span
 											>
@@ -1219,9 +1151,149 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-lg-7">
-										<div class="ms-5 border-start border-2">
-											<p class="card-text ms-4">
+								</div>
+							</div>
+
+							<div class="col-lg-8 mt-3">
+								<div class="row flex-column">
+									<div class="col-lg-12">
+										<div
+											class="row justify-content-between ms-md-4"
+										>
+											<div class="col-lg-6 mt-3">
+												<h2>Untouched Paradise</h2>
+												<span>DAY TRIP</span>
+												<p>Departing from BARAHONA</p>
+											</div>
+											<div class="col-lg-6 mt-3">
+												<div
+													class="row justify-content-end my-1"
+												>
+													<div class="col-lg-5">
+														<span
+															class="btn text-white px-4"
+															>$55</span
+														>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-5">
+														<span>Per Adult</span>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-8">
+														<p class="text-muted transp">
+															Transportation Included
+														</p>
+													</div>
+												</div>
+											</div>
+											<p>
+												<span
+													><i
+														class="fa-solid fa-clock me-2"
+													></i></span
+												>5-6 Hours
+											</p>
+										</div>
+									</div>
+
+									<div class="col-lg-12">
+										<div
+											class="ms-3 ms-md-5 mt-1 border-start border-2 pe-lg-5"
+										>
+											<p class="card-text mx-3 me-md-5">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Natus
+												exercitationem beatae dolor dolores
+												vitae mollitia quae eius ullam,
+												atque officiis totam ducimus minus
+												quo repellendus? Maiores numquam
+												laboriosam dolore qui repellendus
+												saepe ut, voluptas facere
+												accusantium necessitatibus quasi
+												neque id veniam exercitationem quas
+												fugiat assumenda, natus consequatur
+												quibusdam enim quos?
+											</p>
+										</div>
+										<div class="my-4 row infographics4">
+											<div class="col-lg-6">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="30"
+															class="ms-md-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div
+												class="col-lg-5 text-lg-end ms-md-3 tlgraphics"
+											>
+												<span class="mx-md-3"
+													><i
+														class="fa-solid fa-circle-info text-success me-2"
+													></i
+													>Info</span
+												>
+
+												<span class="mx-2"
+													><i
+														class="bi bi-folder-fill text-success me-md-2"
+													></i
+													>Photos</span
+												>
+
+												<span class="mx-md-3">
+													<i
+														class="fa-solid fa-map-location-dot text-success me-2"
+													></i
+													>Map</span
+												>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="col-lg-12 tourcontent4 hidden"
+									>
+										<div
+											class="ms-3 ms-md-5 border-start border-2 pt-3 pe-lg-5 mb-md-5"
+										>
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -1232,7 +1304,7 @@
 												vitae.
 											</p>
 
-											<p class="card-text ms-4">
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -1242,54 +1314,60 @@
 												temporibus dolorum doloribus iure
 												vitae.
 											</p>
-											<p class="card-text ms-4">
+											<p
+												class="card-text mx-3 pe-md-5 mb-md-5"
+											>
 												Lorem ipsum dolor sit amet
 												consectetur, adipisicing elit. Eum
 												dignissimos itaque cum! Ad, aut
 												eveniet!
 											</p>
 										</div>
-										<div class="my-5 pt-5">
-											<div class="row justify-content-end">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
+										<div class="row mt-md-5">
+											<div class="col-lg-6 mt-5">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="35"
+															class="ms-lg-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview2"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
 													</div>
 												</div>
-												<div class="col-lg-6 text-end">
+											</div>
+											<div
+												class="col-lg-5 text-center my-5"
+											>
+												<div class="text-lg-end">
 													<button
 														type="button"
-														class="btn px-5 text-white ms-5"
+														class="btn px-5 text-white"
 													>
 														BOOK NOW
 													</button>
@@ -1301,159 +1379,29 @@
 							</div>
 						</div>
 					</div>
-					<div class="row mt-5" data-tourlist="5">
-						<div class="col-lg-12">
-							<div class="card mb-3">
-								<div class="row g-0">
-									<div class="col-md-4">
+					<div
+						class="container card shadow mt-5"
+						data-tourlist="5"
+					>
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="row flex-column">
+									<div class="col-lg-12 p-0">
 										<img
-											src="images/clouds.jpg"
-											class="img-fluid rounded-start"
+											src="images/clouds.webp"
+											class="img-fluid rounded-start img1"
 											alt="Mountainous terrain on cloudy day"
 										/>
 									</div>
-									<div class="col-md-8">
-										<div class="card-body pb-0">
-											<div
-												class="row justify-content-between ms-4"
-											>
-												<div class="col-lg-6 mt-3">
-													<h2>Cloud Forest Mountain</h2>
-													<span>DAYTRIP</span>
-													<p>Departing from BARAHONA</p>
-												</div>
-												<div class="col-lg-6 mt-3">
-													<div
-														class="row justify-content-end my-1"
-													>
-														<div class="col-lg-5">
-															<span
-																class="btn text-white px-4"
-																>$55</span
-															>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-5">
-															<span>Per Adult</span>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-8">
-															<p class="text-muted">
-																Transportation Included
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row ms-4">
-												<p>
-													<span
-														><i
-															class="fa-solid fa-clock me-2"
-														></i></span
-													>5-6 Hours
-												</p>
-											</div>
 
-											<div
-												class="ms-5 border-start border-2"
-											>
-												<p
-													class="card-text ms-4 mb-3 txt-here me-5"
-												>
-													Lorem ipsum dolor sit amet,
-													consectetur adipisicing elit.
-													Natus exercitationem beatae dolor
-													dolores vitae mollitia quae eius
-													ullam, atque officiis totam
-													ducimus minus quo repellendus?
-													Maiores numquam laboriosam dolore
-													qui repellendus saepe ut, voluptas
-													facere accusantium necessitatibus
-													quasi neque id veniam
-													exercitationem quas fugiat
-													assumenda, natus consequatur
-													quibusdam enim quos?
-												</p>
-											</div>
-											<div class="my-4 row infographics5">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9 px-0">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 text-end">
-													<span class="mx-3"
-														><i
-															class="fa-solid fa-circle-info text-success me-2"
-														></i
-														>Info</span
-													>
-
-													<span class="mx-2"
-														><i
-															class="bi bi-folder-fill text-success me-2"
-														></i
-														>Photos</span
-													>
-
-													<span class="mx-3">
-														<i
-															class="fa-solid fa-map-location-dot text-success me-2"
-														></i
-														>Map</span
-													>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="row tourinfo5 hidden">
-									<div class="col-lg-4 me-2">
-										<div class="mt-3 ms-4 mt-4">
-											<span class="me-5"
+									<div class="col-lg-12 tourinfo5 hidden">
+										<div class="ms-md-4 mt-4">
+											<span class="me-md-5"
 												>ROUTE : Barahona - Paraiso</span
 											>
 											<span
 												><i
-													class="fa-solid fa-map-location-dot ms-5 text-success"
+													class="fa-solid fa-map-location-dot ms-2 ms-md-5 text-success"
 												></i>
 												MAP</span
 											>
@@ -1495,9 +1443,149 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-lg-7">
-										<div class="ms-5 border-start border-2">
-											<p class="card-text ms-4">
+								</div>
+							</div>
+
+							<div class="col-lg-8 mt-3">
+								<div class="row flex-column">
+									<div class="col-lg-12">
+										<div
+											class="row justify-content-between ms-md-4"
+										>
+											<div class="col-lg-6 mt-3">
+												<h2>Cloud Forest Mountain</h2>
+												<span>DAY TRIP</span>
+												<p>Departing from BARAHONA</p>
+											</div>
+											<div class="col-lg-6 mt-3">
+												<div
+													class="row justify-content-end my-1"
+												>
+													<div class="col-lg-5">
+														<span
+															class="btn text-white px-4"
+															>$55</span
+														>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-5">
+														<span>Per Adult</span>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-8">
+														<p class="text-muted transp">
+															Transportation Included
+														</p>
+													</div>
+												</div>
+											</div>
+											<p>
+												<span
+													><i
+														class="fa-solid fa-clock me-2"
+													></i></span
+												>5-6 Hours
+											</p>
+										</div>
+									</div>
+
+									<div class="col-lg-12">
+										<div
+											class="ms-3 ms-md-5 mt-1 border-start border-2 pe-lg-5"
+										>
+											<p class="card-text mx-3 me-md-5">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Natus
+												exercitationem beatae dolor dolores
+												vitae mollitia quae eius ullam,
+												atque officiis totam ducimus minus
+												quo repellendus? Maiores numquam
+												laboriosam dolore qui repellendus
+												saepe ut, voluptas facere
+												accusantium necessitatibus quasi
+												neque id veniam exercitationem quas
+												fugiat assumenda, natus consequatur
+												quibusdam enim quos?
+											</p>
+										</div>
+										<div class="my-4 row infographics5">
+											<div class="col-lg-6">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="30"
+															class="ms-md-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div
+												class="col-lg-5 text-lg-end ms-md-3 tlgraphics"
+											>
+												<span class="mx-md-3"
+													><i
+														class="fa-solid fa-circle-info text-success me-2"
+													></i
+													>Info</span
+												>
+
+												<span class="mx-2"
+													><i
+														class="bi bi-folder-fill text-success me-md-2"
+													></i
+													>Photos</span
+												>
+
+												<span class="mx-md-3">
+													<i
+														class="fa-solid fa-map-location-dot text-success me-2"
+													></i
+													>Map</span
+												>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="col-lg-12 tourcontent5 hidden"
+									>
+										<div
+											class="ms-3 ms-md-5 border-start border-2 pt-3 pe-lg-5 mb-md-5"
+										>
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -1508,7 +1596,7 @@
 												vitae.
 											</p>
 
-											<p class="card-text ms-4">
+											<p class="card-text mx-3 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -1518,54 +1606,60 @@
 												temporibus dolorum doloribus iure
 												vitae.
 											</p>
-											<p class="card-text ms-4">
+											<p
+												class="card-text mx-3 pe-md-5 mb-md-5"
+											>
 												Lorem ipsum dolor sit amet
 												consectetur, adipisicing elit. Eum
 												dignissimos itaque cum! Ad, aut
 												eveniet!
 											</p>
 										</div>
-										<div class="my-5 pt-5">
-											<div class="row justify-content-end">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
+										<div class="row mt-md-5">
+											<div class="col-lg-6 mt-5">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="35"
+															class="ms-lg-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview2"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
 													</div>
 												</div>
-												<div class="col-lg-6 text-end">
+											</div>
+											<div
+												class="col-lg-5 text-center my-5"
+											>
+												<div class="text-lg-end">
 													<button
 														type="button"
-														class="btn px-5 text-white ms-5"
+														class="btn px-5 text-white"
 													>
 														BOOK NOW
 													</button>
@@ -1577,159 +1671,29 @@
 							</div>
 						</div>
 					</div>
-					<div class="row mt-5" data-tourlist="6">
-						<div class="col-lg-12">
-							<div class="card mb-3">
-								<div class="row g-0">
-									<div class="col-md-4">
+					<div
+						class="container card shadow mt-5"
+						data-tourlist="6"
+					>
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="row flex-column">
+									<div class="col-lg-12 p-0">
 										<img
-											src="images/pvtisland.jpg"
-											class="img-fluid rounded-start"
+											src="images/pvtisland.webp"
+											class="img-fluid rounded-start img1"
 											alt="Palm Tree Near Body of Water"
 										/>
 									</div>
-									<div class="col-md-8">
-										<div class="card-body pb-0">
-											<div
-												class="row justify-content-between ms-4"
-											>
-												<div class="col-lg-6 mt-3">
-													<h2>Flamingo Island</h2>
-													<span>DAYTRIP</span>
-													<p>Departing from BARAHONA</p>
-												</div>
-												<div class="col-lg-6 mt-3">
-													<div
-														class="row justify-content-end my-1"
-													>
-														<div class="col-lg-5">
-															<span
-																class="btn text-white px-4"
-																>$55</span
-															>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-5">
-															<span>Per Adult</span>
-														</div>
-													</div>
-													<div
-														class="row justify-content-end"
-													>
-														<div class="col-lg-8">
-															<p class="text-muted">
-																Transportation Included
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row ms-4">
-												<p>
-													<span
-														><i
-															class="fa-solid fa-clock me-2"
-														></i></span
-													>5-6 Hours
-												</p>
-											</div>
 
-											<div
-												class="ms-5 border-start border-2"
-											>
-												<p
-													class="card-text ms-4 mb-3 txt-here me-5"
-												>
-													Lorem ipsum dolor sit amet,
-													consectetur adipisicing elit.
-													Natus exercitationem beatae dolor
-													dolores vitae mollitia quae eius
-													ullam, atque officiis totam
-													ducimus minus quo repellendus?
-													Maiores numquam laboriosam dolore
-													qui repellendus saepe ut, voluptas
-													facere accusantium necessitatibus
-													quasi neque id veniam
-													exercitationem quas fugiat
-													assumenda, natus consequatur
-													quibusdam enim quos?
-												</p>
-											</div>
-											<div class="my-4 row infographics6">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9 px-0">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-5 text-end">
-													<span class="mx-3"
-														><i
-															class="fa-solid fa-circle-info text-success me-2"
-														></i
-														>Info</span
-													>
-
-													<span class="mx-2"
-														><i
-															class="bi bi-folder-fill text-success me-2"
-														></i
-														>Photos</span
-													>
-
-													<span class="mx-3">
-														<i
-															class="fa-solid fa-map-location-dot text-success me-2"
-														></i
-														>Map</span
-													>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="row tourinfo6 hidden">
-									<div class="col-lg-4 me-2">
-										<div class="mt-3 ms-4 mt-4">
-											<span class="me-5"
+									<div class="col-lg-12 tourinfo6 hidden">
+										<div class="ms-md-4 mt-4">
+											<span class="me-md-5"
 												>ROUTE : Barahona - Paraiso</span
 											>
 											<span
 												><i
-													class="fa-solid fa-map-location-dot ms-5 text-success"
+													class="fa-solid fa-map-location-dot ms-2 ms-md-5 text-success"
 												></i>
 												MAP</span
 											>
@@ -1771,9 +1735,149 @@
 											</ul>
 										</div>
 									</div>
-									<div class="col-lg-7">
-										<div class="ms-5 border-start border-2">
-											<p class="card-text ms-4">
+								</div>
+							</div>
+
+							<div class="col-lg-8 mt-3">
+								<div class="row flex-column">
+									<div class="col-lg-12">
+										<div
+											class="row justify-content-between ms-md-4"
+										>
+											<div class="col-lg-6 mt-3">
+												<h2>Flamingo Island</h2>
+												<span>DAY TRIP</span>
+												<p>Departing from BARAHONA</p>
+											</div>
+											<div class="col-lg-6 mt-3">
+												<div
+													class="row justify-content-end my-1"
+												>
+													<div class="col-lg-5">
+														<span
+															class="btn text-white px-4"
+															>$55</span
+														>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-5">
+														<span>Per Adult</span>
+													</div>
+												</div>
+												<div
+													class="row justify-content-end"
+												>
+													<div class="col-lg-8">
+														<p class="text-muted transp">
+															Transportation Included
+														</p>
+													</div>
+												</div>
+											</div>
+											<p>
+												<span
+													><i
+														class="fa-solid fa-clock me-2"
+													></i></span
+												>5-6 Hours
+											</p>
+										</div>
+									</div>
+
+									<div class="col-lg-12">
+										<div
+											class="ms-3 ms-md-5 mt-1 border-start border-2 pe-lg-5"
+										>
+											<p class="card-text mx-4 me-md-5">
+												Lorem ipsum dolor sit amet,
+												consectetur adipisicing elit. Natus
+												exercitationem beatae dolor dolores
+												vitae mollitia quae eius ullam,
+												atque officiis totam ducimus minus
+												quo repellendus? Maiores numquam
+												laboriosam dolore qui repellendus
+												saepe ut, voluptas facere
+												accusantium necessitatibus quasi
+												neque id veniam exercitationem quas
+												fugiat assumenda, natus consequatur
+												quibusdam enim quos?
+											</p>
+										</div>
+										<div class="my-4 row infographics6">
+											<div class="col-lg-6">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="30"
+															class="ms-md-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div
+												class="col-lg-5 text-lg-end ms-md-3 tlgraphics"
+											>
+												<span class="mx-md-3"
+													><i
+														class="fa-solid fa-circle-info text-success me-2"
+													></i
+													>Info</span
+												>
+
+												<span class="mx-2"
+													><i
+														class="bi bi-folder-fill text-success me-md-2"
+													></i
+													>Photos</span
+												>
+
+												<span class="mx-md-3">
+													<i
+														class="fa-solid fa-map-location-dot text-success me-2"
+													></i
+													>Map</span
+												>
+											</div>
+										</div>
+									</div>
+
+									<div
+										class="col-lg-12 tourcontent6 hidden"
+									>
+										<div
+											class="ms-3 ms-md-5 border-start border-2 pt-3 pe-lg-5 mb-md-5"
+										>
+											<p class="card-text mx-4 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -1784,7 +1888,7 @@
 												vitae.
 											</p>
 
-											<p class="card-text ms-4">
+											<p class="card-text mx-4 pe-md-5">
 												Lorem ipsum dolor sit amet
 												consectetur adipisicing elit. Id
 												eveniet ducimus aspernatur
@@ -1794,54 +1898,60 @@
 												temporibus dolorum doloribus iure
 												vitae.
 											</p>
-											<p class="card-text ms-4">
+											<p
+												class="card-text mx-4 pe-md-5 mb-md-5"
+											>
 												Lorem ipsum dolor sit amet
 												consectetur, adipisicing elit. Eum
 												dignissimos itaque cum! Ad, aut
 												eveniet!
 											</p>
 										</div>
-										<div class="my-5 pt-5">
-											<div class="row justify-content-end">
-												<div class="col-lg-6">
-													<div class="row">
-														<div class="col-md-3">
-															<img
-																src="images/trip2.png"
-																alt="Trip advisor logo"
-																width="35"
-																class="ms-5"
-															/>
-														</div>
-														<div class="col-md-9">
-															<span class="d-flex">
-																<span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle review-circle-bg"
-																></span
-																><span
-																	class="review-circle"
-																></span>
-																<span
-																	class="text-muted opinions"
-																	>2756 opinions</span
-																>
-															</span>
-														</div>
+										<div class="row mt-md-5">
+											<div class="col-lg-6 mt-5">
+												<div class="row">
+													<div class="col-lg-3">
+														<img
+															src="images/trip2.webp"
+															alt="Trip advisor logo"
+															width="35"
+															class="ms-lg-5"
+														/>
+													</div>
+													<div class="col-lg-9 px-0">
+														<span
+															class="d-flex justify-content-center justify-content-lg-start tlreview2"
+														>
+															<span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle review-circle-bg"
+															></span
+															><span
+																class="review-circle"
+															></span>
+															<span
+																class="text-muted opinions"
+																>2756 opinions</span
+															>
+														</span>
 													</div>
 												</div>
-												<div class="col-lg-6 text-end">
+											</div>
+											<div
+												class="col-lg-5 text-center mt-5"
+											>
+												<div class="text-lg-end">
 													<button
 														type="button"
-														class="btn px-5 text-white ms-5"
+														class="btn px-5 text-white"
 													>
 														BOOK NOW
 													</button>
@@ -1871,11 +1981,11 @@
 		<section class="container-fluid">
 			<div class="container py-5 text-center">
 				<h3>Featured Travel Experiences</h3>
-				<div class="row mt-5">
-					<div class="col-lg-4">
+				<div class="row">
+					<div class="col-lg-4 my-4">
 						<div class="ftechild">
 							<img
-								src="images/eden.jpg"
+								src="images/eden.webp"
 								alt="Gray Concrete Pathway Besides Pink Flower during Day"
 								height="650"
 							/>
@@ -1896,11 +2006,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 my-4">
 						<div class="ftechild">
 							<img
-								src="images/paradise.jpg"
-								alt="Photography Of Waterfalls Between Trees"
+								src="images/para.webp"
+								alt="Beach Resort by the ocean front"
 								height="650"
 							/>
 							<div class="opacc text-start">
@@ -1920,10 +2030,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 my-4">
 						<div class="ftechild">
 							<img
-								src="images/clouds.jpg"
+								src="images/clouds.webp"
 								alt="Mountainous terrain on cloudy day"
 								height="650"
 							/>
@@ -1979,7 +2089,7 @@
 								</p>
 								<div>
 									<img
-										src="images/drlogomain.png"
+										src="images/drlogomain.webp"
 										alt="Dominican Republic tourism logo"
 									/>
 								</div>
@@ -2040,7 +2150,7 @@
 						></i>
 
 						<img
-							src="images/tripadvisor-24.png"
+							src="images/tripadvisor-24.webp"
 							alt="Trip advisor logo"
 							class="pb-1"
 						/>
