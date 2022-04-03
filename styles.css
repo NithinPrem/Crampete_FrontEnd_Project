@@ -473,10 +473,13 @@ textarea {
 		padding: 29rem 0 0 !important;
 		transition: all 0.4s ease-in-out !important;
 	}
+
+	.ftechildOpac:hover h4,
 	.Cardinfoopacc:hover h4 {
 		transform: translateY(-320%);
 		transition: all 0.4s ease-in-out;
 	}
+	.ftechildOpac:hover p,
 	.Cardinfoopacc:hover p {
 		transform: translateY(-250%);
 		transition: all 0.4s ease-in-out;
@@ -579,6 +582,10 @@ textarea {
 }
 
 @media screen and (max-width: 425px) {
+	.ecologo {
+		width: 295px;
+		height: 35px;
+	}
 	.psa,
 	.psa2 {
 		all: unset;
@@ -670,6 +677,11 @@ textarea {
 		transform: translateY(-370%);
 		transition: all 0.4s ease-in-out;
 	}
+	.ftechildOpac:hover h4 {
+		transform: translateY(-350%);
+		transition: all 0.4s ease-in-out;
+	}
+	.ftechildOpac:hover p,
 	.Cardinfoopacc:hover p {
 		transform: translateY(-250%);
 		transition: all 0.4s ease-in-out;
@@ -677,6 +689,10 @@ textarea {
 }
 
 @media screen and (max-width: 375px) {
+	.ecologo {
+		width: 235px;
+		height: 35px;
+	}
 	.cardInfo h4,
 	.cardInfoLg h4 {
 		margin: 6.5rem 0 0 2rem;
@@ -700,6 +716,11 @@ textarea {
 		padding: 9.35rem 0 0 !important;
 		transition: all 0.4s ease-in-out !important;
 	}
+	.ftechildOpac:hover h4 {
+		transform: translateY(-350%);
+		transition: all 0.4s ease-in-out;
+	}
+	.ftechildOpac:hover p,
 	.Cardinfoopacc:hover p {
 		transform: translateY(-250%);
 		transition: all 0.4s ease-in-out;
@@ -707,6 +728,10 @@ textarea {
 }
 
 @media screen and (max-width: 320px) {
+	.ecologo {
+		width: 185px;
+		height: 35px;
+	}
 	.cardInfo h4,
 	.cardInfoLg h4 {
 		margin: 4.5rem 0 0 2rem;
@@ -727,6 +752,12 @@ textarea {
 		padding: 11.35rem 0 0 !important;
 		transition: all 0.4s ease-in-out !important;
 	}
+	.ftechildOpac:hover h4 {
+		transform: translateY(-350%);
+		transition: all 0.4s ease-in-out;
+	}
+
+	.ftechildOpac:hover p,
 	.Cardinfoopacc:hover p {
 		transform: translateY(-250%);
 		transition: all 0.4s ease-in-out;
