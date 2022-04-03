@@ -581,11 +581,14 @@ textarea {
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 421px) and (max-width: 425px) {
 	.ecologo {
 		width: 295px;
 		height: 35px;
 	}
+}
+
+@media screen and (max-width: 425px) {
 	.psa,
 	.psa2 {
 		all: unset;
@@ -687,12 +690,14 @@ textarea {
 		transition: all 0.4s ease-in-out;
 	}
 }
-
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 360px) and (max-width: 421px) {
 	.ecologo {
 		width: 235px;
 		height: 35px;
 	}
+}
+
+@media screen and (max-width: 375px) {
 	.cardInfo h4,
 	.cardInfoLg h4 {
 		margin: 6.5rem 0 0 2rem;
@@ -724,6 +729,13 @@ textarea {
 	.Cardinfoopacc:hover p {
 		transform: translateY(-250%);
 		transition: all 0.4s ease-in-out;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+	.ecologo {
+		width: 185px;
+		height: 35px;
 	}
 }
 
